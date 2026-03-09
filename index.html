@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESSI</title>
+    <link rel="stylesheet" href="/src/style.css"/>
+    <link rel="preconnect" href="https://use.typekit.net" />
+    <link rel="stylesheet" href="https://use.typekit.net/taj5rlj.css" />
+    <link rel="icon" href="https://raw.githubusercontent.com/squairdev/JESSI-web/refs/heads/main/app/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="t-d">
+            <p class="title">JESSI</p>
+            <p class="sec">Your favourite Minecraft server, now made for iOS.</p>
+        </div>
+        <div class="row">
+            <a class="b-l" href="https://github.com/Baconium/JESSI"><p>GitHub</p></a>
+            <a class="b-r" href="https://discord.gg/yY3rRqmvHr"><p>Discord</p></a>
+        </div>
+        <img src="https://raw.githubusercontent.com/squairdev/JESSI-web/refs/heads/main/public/Server_Status.png" class="i-t"/>
+    </section>
+    <section class="pt">
+        <img src="https://raw.githubusercontent.com/squairdev/JESSI-web/refs/heads/main/app/opengraph-image.png" class="i-w"/>
+        <p class="sub">What is JESSI?</p>
+        <p class="pgh">JESSI is a jailed app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. While JESSI can run on non jailbroken devices, it requires JIT to be enabled in order to actually function.</p>
+        <a class="b-l b-r b-p" href="https://github.com/Baconium/JESSI/releases/latest/download/JESSI.ipa"><p>Download latest version</p></a>
+    </section>
+    <section class="pt">
+        <p class="sub">Playit and UPnP integration</p>
+        <p class="pgh">You can port forward your Minecraft server using Playit.gg or UPnP.</p>
+        <img src="https://raw.githubusercontent.com/squairdev/JESSI-web/refs/heads/main/public/Playit.png" class="i-p"/>
+    </section>
+    <p class="c-t pt">Credits</p>
+    <section class="fit">
+        <div class="c-b">
+            <img src="https://github.com/Baconium.png"/>
+            <h3>BaconMania</h3>
+            <p>Lead Developer</p>
+            <div>
+                <a href='https://github.com/Baconium' target='_blank'>GitHub</a>
+            </div>
+        </div>
+        <div class="c-b">
+            <img src="https://github.com/rooootdev.png"/>
+            <h3>roooot</h3>
+            <p>Co-Developer</p>
+            <div>
+                <a href='https://roooot.dev' target='_blank'>Website</a>
+                <a href='https://github.com/rooootdev' target='_blank'>GitHub</a>
+            </div>
+        </div>
+        <div class="c-b">
+            <img src="https://github.com/squairdev.png"/>
+            <h3>Squair</h3>
+            <p>Website Developer</p>
+            <div>
+                <a href='https://squair.xyz' target='_blank'>Website</a>
+                <a href='https://github.com/squairdev' target='_blank'>GitHub</a>
+            </div>
+        </div>
+        <div class="c-b">
+            <img src="https://github.com/peroka-net.png"/>
+            <h3>procurs.us</h3>
+            <p>JESSI Mascot</p>
+            <div>
+                <a href='https://github.com/peroka-net' target='_blank'>GitHub</a>
+            </div>
+        </div>
+    </section>
+    <img id="j-g" onclick="c()" src="https://raw.githubusercontent.com/squairdev/JESSI-web/refs/heads/main/public/JESSI.png"/>
+    <p id="j-e">Jadix's Girlfriend</p>
+    <script>
+        let e = false;
+        function c(){
+            if (e){
+                e=false;
+                document.getElementById("j-e").style.visibility='hidden';
+            }
+            else{
+                e=true
+                document.getElementById("j-e").style.visibility='unset'
+            };
+        }
+    </script>
+</body>
+</html>
